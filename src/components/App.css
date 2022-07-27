@@ -31,11 +31,18 @@ html{
     background: #FFC700;
 }
 
+.logoa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
-    width: 120px;
+    margin-left: 20px;
+    width: 50px;
     height: auto;
-    margin-top: 20px;
     display: block;
+    align-items: center;
 }
 
 /* home.js */
