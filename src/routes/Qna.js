@@ -4,9 +4,7 @@ import Home from "../components/home";
 const Qna = () => {
   const [text, chtext] = useState("Q");
   const onchtext = (ev) => {
-    if (text === "Q") {
-      chtext("A");
-    } else {
+    if (text === "A") {
       chtext("Q");
     }
   };
@@ -18,7 +16,7 @@ const Qna = () => {
       </header>
       <div className="QNAMain">
         <div className="QNAtextbody">
-          <p id="QAtext">Q&A</p>
+          <p id="QAtext">Q&amp;A</p>
         </div>
         <div className="Zelbody">
           <p id="Zeltext">자주 묻는 질문</p>
