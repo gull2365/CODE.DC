@@ -1,21 +1,39 @@
-import React from "react";
+import { useState, React } from "react";
+import Home from "../components/home";
 
 const Qna = () => {
+  const [text, chtext] = useState("Q");
+  const onchtext = (ev) => {
+    if (text === "Q") {
+      chtext("A");
+    } else {
+      chtext("Q");
+    }
+  };
+
   return (
-    <div className="ang1">
-      <nav className="Header">
-        <ul>
-          <button>
-            <a href="register">회원가입</a>
-          </button>
-          <button>
-            <a href="login">로그인</a>
-          </button>
-          <button>
-            <a href="qna">QNA</a>
-          </button>
-        </ul>
-      </nav>
+    <div>
+      <header>
+        <nav className="Header"></nav>
+      </header>
+      <div className="QNAMain">
+        <div className="QNAtextbody">
+          <p id="QAtext">Q&A</p>
+        </div>
+        <div className="Zelbody">
+          <p id="Zeltext">자주 묻는 질문</p>
+        </div>
+        <div className="Chatbody">
+          <div className="Chatbox">
+            <div className="Qbox">
+              <button onClick={onchtext} className="Q">
+                <p className="QA">{text}</p>
+              </button>
+            </div>
+            <div className="QF"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
