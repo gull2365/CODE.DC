@@ -3,6 +3,21 @@
 body {
     background-color: #100E06;
     font-family: 'Inter var', sans-serif;
+    color: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+
+}
+
+html{
+    height: 100%;
+    width: 100%;
 }
 
 .Header {
