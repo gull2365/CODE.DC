@@ -1,20 +1,13 @@
 import React from "react";
+import Logo from '../img/Logo.png'
 
 const Qna = () => {
   return (
-    <div className="ang1">
+    <div>
       <nav className="Header">
-        <ul>
-          <button>
-            <a href="register">회원가입</a>
-          </button>
-          <button>
-            <a href="login">로그인</a>
-          </button>
-          <button>
-            <a href="qna">QNA</a>
-          </button>
-        </ul>
+        <a href="/">
+          <img src={Logo} alt="Logo" className="logo" />
+        </a>
       </nav>
     </div>
   );

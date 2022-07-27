@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../img/Logo.png'
 
 const home = () => {
   return(
@@ -11,21 +12,24 @@ const Header = () => {
     <header>
       <h1>사이트명</h1>
       <nav className="Header">
-        <ul>
+        <a href="/">
+          <img src={Logo} alt="Logo" className="logo" />
+        </a>
+        <div className="buttons">
           <button>
-            <a href="register">회원가입</a>
+            <a href="qna" className="qnabtn">Q&amp;A</a>
+          </button> 
+          <button>
+            <a href="login" className="loginbtn">로그인</a>
           </button>
           <button>
-            <a href="login">로그인</a>
+            <a href="register" className="registerbtn">회원가입</a>
           </button>
-          <button>
-            <a href="qna">QNA</a>
-          </button>
-        </ul>
+        </div>
       </nav>
     </header>
   );
 };
 
 
-export default Header;
+export default home;
