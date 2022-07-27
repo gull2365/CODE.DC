@@ -1,9 +1,22 @@
 import React from "react";
-import '../routes/Qna.css'
 
 const Qna = () => {
-  return(
-    <div className="ang1">Qna</div>
+  return (
+    <div className="ang1">
+      <nav className="Header">
+        <ul>
+          <button>
+            <a href="register">회원가입</a>
+          </button>
+          <button>
+            <a href="login">로그인</a>
+          </button>
+          <button>
+            <a href="qna">QNA</a>
+          </button>
+        </ul>
+      </nav>
+    </div>
   );
 };
 
