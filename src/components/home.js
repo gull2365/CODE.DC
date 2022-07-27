@@ -1,6 +1,12 @@
 import React from "react";
 
-const Home = () => {
+const home = () => {
+  return(
+    <Header />
+  );
+};
+
+const Header = () => {
   return (
     <header>
       <h1>사이트명</h1>
@@ -21,4 +27,5 @@ const Home = () => {
   );
 };
 
-export default Home;
+
+export default Header;
