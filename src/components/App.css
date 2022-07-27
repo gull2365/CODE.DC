@@ -32,6 +32,16 @@ body {
 }
 
 button {
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font: inter;
+    font-weight: 400;
+    font-size25px;
     float:right;
     background-color:transparent;
+}
+a {
+    
+    text-align: center;
 }
