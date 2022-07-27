@@ -1,0 +1,17 @@
+body {
+    background-color: #100E06;
+}
+
+.Header {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 1px;
+    top: 0px;
+
+    background: #FFC700;
+}
+
+button {
+    float:right;
+}

@@ -1,7 +1,10 @@
 import React from "react";
+import '../routes/Qna.css'
 
 const Qna = () => {
-  <div>Qna</div>;
+  return(
+    <div className="ang1">Qna</div>
+  );
 };
 
 export default Qna;
