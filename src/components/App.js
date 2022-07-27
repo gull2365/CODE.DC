@@ -1,9 +1,11 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Home from './home';
-import Register from '../routes/Register';
-import Login from '../routes/Login';
-import Qna from '../routes/Qna';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./home";
+import Register from "../routes/Register";
+import Login from "../routes/Login";
+import Qna from "../routes/Qna";
+
+import "./App.css";
 
 const App = () => {
   return (
