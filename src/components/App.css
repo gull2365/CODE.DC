@@ -52,7 +52,80 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.Mainlogo{
+    position: absolute;
+    width: 1100px;
+    height: 1100px;
+    left: 200px;
+    bottom: 220px;
+}
+.Green_Circle{
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    left: 1450px;
+    top: 222px;
 
+    background: #17361A;
+    border-radius: 50px;
+}
+.GC_Text {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+.main_text {
+    position: absolute;
+    width: 800px;
+    height: 93px;
+    left: 1450px;
+    top: 290px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.main_text2 {
+    position: absolute;
+    width: 700px;
+    height: 77px;
+    left: 1450px;
+    top: 360px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    
+    color: #FFFFFF;
+}
+.main_text3 {
+    position: absolute;
+width: 530px;
+height: 135px;
+left: 1450px;
+top: 460px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 45px;
+
+letter-spacing: -0.055em;
+
+color: #FFFFFF;
+}
 /* Login.js */
 
 .login {
@@ -60,6 +133,24 @@ a {
     position: relative;
     top: 3.5em;
     text-align: center;
+}
+.main_btn {
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 1450px;
+    top: 657px;
+
+    background: #FFC700;
+    border-radius: 13px;
+    font-weight:900;
+    font-size: 35px;
+    line-height: 45px;
+
+    text-align: center;
+    letter-spacing: -0.055em;
+
+    color: #000000
 }
 
 /* Register.js */
