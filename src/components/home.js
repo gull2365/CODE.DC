@@ -59,7 +59,7 @@ const Header = () => {
         <div className="NowCodeDC">
           <p className="NowCodeDCText">지금까지 코드디씨는 ? 🤔</p>
         </div>
-        <Slide className="achivements"></Slide>
+        <Slide></Slide>
       </section>
       <section>
         <div>

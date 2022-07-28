@@ -7,26 +7,28 @@ import data from './achivementsData';
 const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 8,
+    slidesToShow: 9,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000
+    autoplaySpeed: 2000,
+    centerMode: true,
+    arrows: false
 };
 
 function Slide(props) {
     const [achivements] = useState(data);
     return (
-        <div>
-            <Slider {...settings}>
-                {
-                    achivements.map((a, i) => {
-                        return (
-                            <Achivements achivements={achivements[i]}/>
-                        ) 
-                    })
-                }
-            </Slider>
-        </div>
+            <div className='achivements'>
+                <Slider {...settings}>
+                    {
+                        achivements.map((a, i) => {
+                            return (
+                                <Achivements achivements={achivements[i]}/>
+                            ) 
+                        })
+                    }
+                </Slider>
+            </div>
     );
 }
 

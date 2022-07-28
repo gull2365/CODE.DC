@@ -217,6 +217,10 @@ P {
     line-height: 41px;
 }
 
+.achivements {
+    width: 100%;
+}
+
 .achivementsYear {
     font-family: 'Spoqa Han Sans Neo';
     font-style: normal;
@@ -240,7 +244,7 @@ P {
 }
 
 .Pupple {
-    width: 230px;
+    margin: 0px 10px;
     height: 80px;
     background: #4D22A7;
     border-radius: 11px;
@@ -253,7 +257,7 @@ P {
 }
 
 .Red {
-    width: 230px;
+    margin: 0px 10px;
     height: 80px;
     background: #F73838;
     border-radius: 11px;
@@ -266,7 +270,7 @@ P {
 }
 
 .White {
-    width: 230px;
+    margin: 0px 10px;
     height: 80px;
     background: #FFFDF2;
     border-radius: 11px;
@@ -279,7 +283,7 @@ P {
 }
 
 .Black {
-    width: 230px;
+    margin: 0px 10px;
     height: 80px;
     background: #3F3F3F;
     border-radius: 11px;
@@ -292,7 +296,7 @@ P {
 }
 
 .Green {
-    width: 230px;
+    margin: 0px 10px;
     height: 80px;
     background: #22a76f;
     border-radius: 11px;
@@ -305,7 +309,7 @@ P {
 }
 
 .Blue {
-    width: 230px;
+    margin: 0px 10px;
     height: 80px;
     background: #2237a7;
     border-radius: 11px;
