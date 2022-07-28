@@ -321,7 +321,7 @@ P {
     position: absolute;
     width: 345px;
     height: 41px;
-    left: 109px;
+    left: 725px;
     top: 1330px;
 
     font-weight: 800;
@@ -335,7 +335,7 @@ P {
     position: absolute;
     width: 1200px;
     height: 54px;
-    left: 109px;
+    left: 725px;
     top: 1420px;
     font-weight: 300;
     font-size: 20px;
@@ -350,8 +350,8 @@ P {
     position: absolute;
     width: 290px;
     height: 415px;
-    left: 353px;
-    top: 1634px;
+    left: 720px;
+    top: 1600px;
 
     background: #E9E4CF;
     border-radius: 25px;
@@ -362,11 +362,226 @@ P {
     width: 290px;
     height: 100px;
     top: 310px;
-
     background: #FFFFFF;
     border-radius: 0px 0px 25px 25px;
 }
 
+.shape1_text{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    left: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    line-height: 100px;
+    color: #171717;
+}
+.S3_Circle_shape {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 115px;
+    bottom: 385px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D1CD63;
+}
+.S3_Circle_shape_text {
+    position: absolute;
+    width: 17px;
+    height: 36px;
+    top: 5px;
+    left: 17px;
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.085em;
+
+    color: #6C7247;
+}
+.s3_img1 {
+    position: absolute;
+width: 287px;
+height: 232px;
+top: 50px;
+}
+
+
+.S3_shape2 {
+    position: absolute;
+    width: 290px;
+    height: 415px;
+    left: 1150px;
+    top: 1600px;
+
+    background: #D5D5F6;
+    border-radius: 25px;
+}
+.S3_shape1_2 {
+    position: absolute;
+    width: 290px;
+    height: 100px;
+    top: 310px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+}
+.shape1_text_2{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    left: 85px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    line-height: 100px;
+    color: #171717;
+}
+.S3_Circle_shape_2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 115px;
+    bottom: 385px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid #4FA8F3;
+}
+.S3_Circle_shape_text_2 {
+    position: absolute;
+    width: 17px;
+    height: 36px;
+    top: 5px;
+    left: 16px;
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.085em;
+
+    color: #6C7247;
+}
+.s3_img2 {
+    position: absolute;
+width: 287px;
+height: 232px;
+top: 50px;
+}
+
+.S3_shape3 {
+    position: absolute;
+    width: 290px;
+    height: 415px;
+    left: 1590px;
+    top: 1600px;
+
+    background: #F4D0B8;
+    border-radius: 25px;
+}
+.S3_shape1_3 {
+    position: absolute;
+    width: 290px;
+    height: 100px;
+    top: 310px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+}
+.shape1_text_3{
+    position: absolute;
+    width: 250px;
+    height: 38px;
+    left: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    line-height: 100px;
+    color: #171717;
+}
+.S3_Circle_shape_3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 115px;
+    bottom: 385px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid #FD3126;
+}
+.S3_Circle_shape_text_3 {
+    position: absolute;
+    width: 17px;
+    height: 36px;
+    top: 5px;
+    left: 16px;
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.085em;
+
+    color: #6C7247;
+}
+
+.s3_img3 {
+    position: absolute;
+width: 287px;
+height: 232px;
+top: 50px;
+}
+
+footer {
+    position: absolute;
+    top: 2250px;
+    width: 150vw;
+    height: 55px;
+    left: 0;
+    right: 0;
+
+    background: #282828;
+}
+.f_text {
+    position: absolute;
+    top: 15px;
+    left: 300px;
+    width: 350px;
+    height: 17.37px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #9D9CA8;
+}
+.f_text1 {
+    position: absolute;
+    top: 15px;
+    left: 2000px;
+    width: 250px;
+    height: 13.51px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #9D9CA8;
+}
 /* Login.js */
 
 .login {
