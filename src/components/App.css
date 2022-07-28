@@ -3,6 +3,21 @@
 body {
     background-color: #100E06;
     font-family: 'Inter var', sans-serif;
+    color: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+
+}
+
+html{
+    height: 100%;
+    width: 100%;
 }
 
 .Header {
@@ -10,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     height: 65px;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -24,6 +40,10 @@ body {
 }
 
 /* home.js */
+::-webkit-scrollbar {
+    display: none;
+    }
+     
 
 .buttons {
     position: relative;
@@ -84,7 +104,7 @@ a {
 }
 .GC_Text {
     position: relative;
-    bottom: 20px;
+    top: 10px;
     text-align: center;
     color: #FFFFFF;
     font-family: 'Inter';
@@ -98,7 +118,7 @@ a {
     width: 800px;
     height: 93px;
     left: 1450px;
-    top: 320px;
+    top: 310px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -112,7 +132,7 @@ a {
     width: 700px;
     height: 77px;
     left: 1450px;
-    top: 380px;
+    top: 370px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -127,7 +147,7 @@ a {
 width: 530px;
 height: 135px;
 left: 1450px;
-top: 470px;
+top: 490px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -145,7 +165,7 @@ color: #FFFFFF;
     width: 400px;
     height: 75px;
     left: 1450px;
-    top: 670px;
+    top: 655px;
 
     background: #FFC700;
     border-radius: 13px;
@@ -158,6 +178,165 @@ color: #FFFFFF;
 
     color: #000000
 }
+P {
+    margin: 0px;
+}
+
+.section {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 900px;
+}
+
+.NowCodeDC {  
+    margin-top: 95px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.NowCodeDCText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+.achivementsYear {
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: -0.085em;
+
+    padding-top: 13px;
+}
+
+.achivementsContents {
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: -0.085em;
+
+    padding-top: 1px;
+}
+
+.Pupple {
+    width: 230px;
+    height: 80px;
+    background: #4D22A7;
+    border-radius: 11px;
+}
+
+.PuppleText {   
+    align-items: center;
+    text-align: center;    
+    color: #BABCFD;
+}
+
+.Red {
+    width: 230px;
+    height: 80px;
+    background: #F73838;
+    border-radius: 11px;
+}
+
+.RedText {   
+    align-items: center;
+    text-align: center;    
+    color: #FFB4B4;
+}
+
+.White {
+    width: 230px;
+    height: 80px;
+    background: #FFFDF2;
+    border-radius: 11px;
+}
+
+.WhiteText {   
+    align-items: center;
+    text-align: center;    
+    color: #A9A9A9;
+}
+
+.Black {
+    width: 230px;
+    height: 80px;
+    background: #3F3F3F;
+    border-radius: 11px;
+}
+
+.BlackText {   
+    align-items: center;
+    text-align: center;    
+    color: #A9A9A9;
+}
+
+.Green {
+    width: 230px;
+    height: 80px;
+    background: #22a76f;
+    border-radius: 11px;
+}
+
+.GreenText {   
+    align-items: center;
+    text-align: center;    
+    color: #cff6e4;
+}
+
+.Blue {
+    width: 230px;
+    height: 80px;
+    background: #2237a7;
+    border-radius: 11px;
+}
+
+.BlueText {   
+    align-items: center;
+    text-align: center;    
+    color: #bacdfd;
+}
+.Section3_main_text {
+    position: absolute;
+    width: 345px;
+    height: 41px;
+    left: 109px;
+    top: 1330px;
+
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+.Section3_main_text1 {
+    position: absolute;
+    width: 1200px;
+    height: 54px;
+    left: 109px;
+    top: 1420px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+
+    color: #FFFFFF;
+
+}
 /* Login.js */
 
 .login {
@@ -166,7 +345,25 @@ color: #FFFFFF;
     top: 3.5em;
     text-align: center;
 }
+.S3_shape {
+    position: absolute;
+    width: 290px;
+    height: 415px;
+    left: 353px;
+    top: 1634px;
 
+    background: #E9E4CF;
+    border-radius: 25px;
+}
+.S3_shape1 {
+    position: absolute;
+    width: 290px;
+    height: 100px;
+    top: 310px;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 25px 25px;
+}
 /* Register.js */
 
 

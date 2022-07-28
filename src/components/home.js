@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "../img/Logo.png";
 import CODEDC from "../img/CODEDC.png";
+import Slide from "../components/slide";
+
 const home = () => {
   return <Header />;
 };
@@ -47,6 +49,24 @@ const Header = () => {
               <b>누구나</b> 지원하실 수 있습니다!
             </p>
             <button className="main_btn">지원하기!</button>
+          </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="NowCodeDC">
+          <p className="NowCodeDCText">지금까지 코드디씨는 ? 🤔</p>
+        </div>
+        <Slide className="achivements"></Slide>
+      </section>
+      <section>
+        <div>
+          <h1 className="Section3_main_text">앞으로의 운영 방향은?</h1>
+          <p className="Section3_main_text1">저희 Code D.C. 는 기초실력상향 → 개인 과제 → 프로젝트 순으로<br/>
+           <b>기초적인 프로그래밍 실력</b>을 학습 한 이후 실제 <b>프로젝트</b>를 진행하고,  이를 바탕으로 실제 서비스를 만들거나 대회에 참여합니다.</p>
+        </div>
+        <div className="S3_shape">
+          <div className="S3_shape1">
+            <p className="shape1_text">기초실력향상</p>
           </div>
         </div>
       </section>
