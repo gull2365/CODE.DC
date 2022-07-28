@@ -9,13 +9,13 @@ body {
 
 }
 
-#root{
+#root {
     height: 100%;
     width: 100%;
 
 }
 
-html{
+html {
     height: 100%;
     width: 100%;
 }
@@ -32,15 +32,15 @@ html{
     background: #FFC700;
 }
 
-.logoa{
+.logoa {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo {
-    margin-left: 20px;
-    width: 50px;
+    margin-left: 15px;
+    width: 40px;
     height: auto;
     display: block;
     align-items: center;
@@ -49,20 +49,18 @@ html{
 /* home.js */
 ::-webkit-scrollbar {
     display: none;
-    }
+}
      
 
 .buttons {
-    position: relative;
-    right: 330px;
     margin-left: auto;
     margin-bottom: 3px;
-    margin-right: 10px;
+    margin-right: 45px;
 }
 
 .qnabtn {
-    margin-top: 8px;
-    margin-right: 75px;
+    margin-top: 10px;
+    margin-right: 55px;
 }
 
 button {
@@ -81,25 +79,21 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.Section_Container1 {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-left: auto;
-}
 
 .Section_Container2 {
     width: 100%;
     height: 100%;
 }
-.Mainlogo{
+
+.Mainlogo {
     position: absolute;
     width: 1030px;
     height: 1030px;
     left: 200px;
     bottom: 220px;
 }
-.Green_Circle{
+
+.Green_Circle {
     position: absolute;
     width: 360px;
     height: 60px;
@@ -109,6 +103,7 @@ a {
     background: #17361A;
     border-radius: 50px;
 }
+
 .GC_Text {
     position: relative;
     top: 10px;
@@ -120,6 +115,7 @@ a {
     font-size: 30px;
     line-height: 45px;
 }
+
 .main_text {
     position: absolute;
     width: 800px;
@@ -134,6 +130,7 @@ a {
     line-height: 70px;
     color: #FFFFFF;
 }
+
 .main_text2 {
     position: absolute;
     width: 700px;
@@ -149,22 +146,23 @@ a {
     
     color: #FFFFFF;
 }
+
 .main_text3 {
     position: absolute;
-width: 530px;
-height: 135px;
-left: 1450px;
-top: 490px;
+    width: 530px;
+    height: 135px;
+    left: 1450px;
+    top: 490px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
 
-letter-spacing: -0.055em;
+    letter-spacing: -0.055em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .main_btn {
@@ -185,6 +183,7 @@ color: #FFFFFF;
 
     color: #000000
 }
+
 P {
     margin: 0px;
 }
@@ -317,6 +316,7 @@ P {
     text-align: center;    
     color: #bacdfd;
 }
+
 .Section3_main_text {
     position: absolute;
     width: 345px;
@@ -330,6 +330,7 @@ P {
 
     color: #FFFFFF;
 }
+
 .Section3_main_text1 {
     position: absolute;
     width: 1200px;
@@ -344,14 +345,7 @@ P {
     color: #FFFFFF;
 
 }
-/* Login.js */
 
-.login {
-    color: #FFC700;
-    position: relative;
-    top: 3.5em;
-    text-align: center;
-}
 .S3_shape {
     position: absolute;
     width: 290px;
@@ -362,6 +356,7 @@ P {
     background: #E9E4CF;
     border-radius: 25px;
 }
+
 .S3_shape1 {
     position: absolute;
     width: 290px;
@@ -371,12 +366,29 @@ P {
     background: #FFFFFF;
     border-radius: 0px 0px 25px 25px;
 }
+
+/* Login.js */
+
+.login {
+    color: #FFC700;
+    position: relative;
+    top: 3.5em;
+    text-align: center;
+    font-size: 50px;
+}
+
+.login_info {
+    display: inline-flex;
+    flex-direction: column;
+}
+
 /* Register.js */
 
 
 
 
 /* Qna.js */
+
 .QNA{
     height: 100%;
 }
