@@ -12,7 +12,7 @@ const home = () => {
 
 const Header = () => {
   return (
-    <div>
+    <div className="home">
       <nav className="Header">
         <a href="/" className="logoa">
           <img src={Logo} alt="Logo" className="logo" />
@@ -35,16 +35,17 @@ const Header = () => {
           </button>
         </div>
       </nav>
-      <section>
-        <div className="Section_Container1">
-          <img src={CODEDC} alt="mainLogo" className="Mainlogo" />
+      <section className="Section_Container1">
+          <div className="MainLogoBox">
+            <img src={CODEDC} alt="mainLogo" className="Mainlogo" />
+          </div>        
           <div className="Section_Container2">
             <div className="Green_Circle">
               <p className="GC_Text">2학기 신입 부원 모집!</p>
             </div>
             <h2 className="main_text">한세에서 개발자가 되고 싶다구요?</h2>
-            <h2 className="main_text2">그렇다면 Code D.C 로 오세요!</h2>
-            <p className="main_text3">
+            <h2 className="main_text">그렇다면 Code D.C 로 오세요!</h2>
+            <p className="main_text2">
               Code D.C 는 한세사이버보안고등학교
               <br />
               <b>유일</b> 개발 동아리로 한세 재학생이라면
@@ -53,7 +54,6 @@ const Header = () => {
             </p>
             <button className="main_btn">지원하기!</button>
           </div>
-        </div>
       </section>
       <section className="section">
         <div className="NowCodeDC">
