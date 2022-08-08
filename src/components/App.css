@@ -466,7 +466,7 @@ footer {
 .twobox{
     min-height: 80px;
     width: 100%;
-    height: 100px;
+    height: max-content;
     display: flex;
 }
 
@@ -499,7 +499,7 @@ footer {
 
 .twotextbox{
     min-height: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
     min-width: 200px;
     max-width: 300px;
     width: max-content;
@@ -530,19 +530,19 @@ footer {
 }
 
 .twoproname{
-    margin-left: 20px;
+    margin-left: 30px;
     color: black;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 
-.a{background-color: black;}
+
 
 .onebox{
     min-height: 80px;
     width: 100%;
-    height: 80px;
+    height: max-content;
     display: flex;
     float: right;
     justify-content: flex-end
@@ -557,8 +557,9 @@ footer {
 
 .onetextbox{
     min-height: 40px;
-    margin-right: 20px;
-    min-width: 180px;
+    margin-left: 30px;
+    min-width: 30px;
+    max-width: 310px;
     width: max-content;
     height: max-content;
     background: #ffeb33;
@@ -588,6 +589,7 @@ footer {
 
 
 .onechatbox{
+    width: max-content;
     display: flex;
     align-items: center;
 }
@@ -598,35 +600,44 @@ footer {
     margin-right: 10px;
     margin-left: 10px;
     white-space: break-word;
-    max-width: 520px;
+    max-width: 300px;
 }
 
 .onetext{
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    white-space: nowrap;
+    word-break:break-all;
+    max-width: 300px;
+    
 }
 .twodiv{
   width: 100%;
 }
 
 .kakaonone{
-  height: 5%;
+  height: 33px;
   width: 100%;
 }
 
 .chatbuttondiv{
-  width: 10%;
-  height: 100%;
+  width: 15%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .chatboxdiv{
-  width: 90%;
+  width: 85%;
   color: #888888;
 }
 .chat{
   height: 70%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .chatimbox{
@@ -643,7 +654,56 @@ footer {
 }
 .chatboxs{
   display: flex;
-  height: 18%;
+  height: 100%;
   background-color: white;
   width: 100%;
+}
+
+.chatinput{
+    width: 95%;
+    height: 95%;
+    border: 0;
+    outline: none;
+    vertical-align: top;
+    font-size: 16px;
+    resize: none;
+}
+
+.qnaok{
+    margin-top: 20px;
+    height: 30px;
+    background-color: #ffeb33;;
+    width: 50px;
+    border: 1px solid #c0b127;
+    border-radius: 3px;
+}
+
+.qnano{
+    margin-top: 20px;
+    height: 30px;
+    background-color: #ffeb33;;
+    width: 50px;
+    border: 1px solid #c0b127;
+    border-radius: 3px;
+    color:#6e6e6e;
+}
+.qnacheckdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qnacheckbtn{
+    background-color: #ffeb33;;
+    font-size: 30px;
+    width: 20%;
+    height: 50%;
+    border: 1px solid #c4b100;
+    border-radius: 40PX;
+}
+.aaang{
+    min-height: 80px;
+    height: max-content;
+    width: 100%;
 }
