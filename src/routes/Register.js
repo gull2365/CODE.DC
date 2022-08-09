@@ -5,6 +5,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
   const onChange = (e) => {
     const {
@@ -17,11 +18,14 @@ const Register = () => {
     }
   };
 
-  const onSubmit = (e) => {
-    e.prevendDefault();
-
-    const auth = getAuth();
-    createUserWithEmailAndPassword(auth, email, password);
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const auth = getAuth();
+      await createUserWithEmailAndPassword(auth, email, password);
+    } catch (error) {
+      setError(error.message);
+    }
   };
 
   return (
@@ -34,22 +38,22 @@ const Register = () => {
       <h1 className="login">회원가입</h1>
       <form onSubmit={onSubmit} className="login_info">
         <input
-          type="email"
           name="email"
-          required
+          type="text"
           placeholder="이메일"
+          required
           value={email}
           onChange={onChange}
         />
         <input
-          type="password"
           name="password"
-          required
+          type="password"
           placeholder="비밀번호"
+          required
           value={password}
           onChange={onChange}
         />
-        <input
+        {/* <input
           type="tel"
           name="phoneNumber"
           pattern="[0-9]{3}[0-9]{4}[0-9]{4}"
@@ -59,12 +63,13 @@ const Register = () => {
         <input
           type="text"
           name="hakbun"
-          pattern="[a-z]{1}[0-9]{4}"
+          pattern="[A-Z]{1}[0-9]{4}"
           required
           placeholder="학번"
         />
-        <input type="text" name="name" required placeholder="이름" />
+        <input type="text" name="name" required placeholder="이름" /> */}
         <input type="submit" value="회원가입" />
+        {error && <span>{error}</span>}
       </form>
     </div>
   );

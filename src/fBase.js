@@ -9,8 +9,7 @@ const firebaseConfig = {
   storageBucket: REACT_APP_STORAGE_BUCKET,
   messagingSenderId: REACT_APP_MESSAGIN_ID,
   appId: REACT_APP_APP_ID,
-  measurementId: "G-71JETKPDFF",
 };
 
-export const firebaseApp = initializeApp(firebaseConfig);
+const firebaseApp = initializeApp(firebaseConfig);
 export const authService = getAuth(firebaseApp);
