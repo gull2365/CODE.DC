@@ -16,6 +16,7 @@ const Register = () => {
     } else if (name === "password") {
       setPassword(value);
     }
+    dasdsa;
   };
 
   const onSubmit = async (e) => {
